@@ -1,0 +1,55 @@
+*{
+    margin:0px
+}
+/* This selects the entire page and take off all margins. Observe the page as I save this code */
+.logo{
+    display: inline;
+}
+.logoname{
+    display: inline;
+}
+.pages{
+    display: inline;
+}
+/* I should prepare the whole header section for each of the div's design */
+header{
+    background-color: #a5cfc8;
+    height: 100px;
+    border: none;
+    box-shadow: 5px 5px 5px rgb(0, 127, 0);
+    overflow: hidden;
+}
+/* The logo is running away, it needs rescue */
+#logoimg{
+    width: 180px;
+    height: 100px;
+    box-shadow: 3px 3px 3px rgb(0, 127, 0);
+}
+/* You will be wondering where is the logo name and menu list */
+.logoname h1{
+    text-align: center;
+    margin-top: -100px;
+    margin-left: -230px;
+    font-size: 70px;
+    font-family: 'Bree Serif', serif;
+    text-shadow: 5px 5px 7px;
+    color: blue;
+}
+nav{
+    float: right;
+    margin-top: -35px;
+    margin-right: 5px;
+}
+nav ul li{
+    display: inline;
+    margin: 0px 2px;
+    font-size: 21px;
+    text-decoration: solid;
+    color: white;
+}
+.page{
+    border: none;
+    padding: 2px 10px;
+    background: linear-gradient(red,green,black,yellow);
+    box-shadow: 0px 3px 20px rgb(0, 127, 0);
+}
